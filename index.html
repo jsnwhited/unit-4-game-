@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Crystal Collector</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    </head>
+<body style= "background-color: whitesmoke">
+    <div class="container">
+        
+        <div class="jumbotron" style = 'background-color: slategrey; color: paleturquoise'>
+            <h1  class="text-center">Magic Crystal Collector</h1>
+            
+          </div>
+
+     <div class="row">
+            <div class="col-sm-12 instructions">
+              <h2 class = "text-center"> Instructions</h2> 
+              <p class="text-center">You will be given a random number at the start of the game.
+              There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+              You win the game by matching your total score to the random number. You lost the game if your total score goes above the random number.
+              The value of each crystal is hidden from you until you click on it.</p>
+            </div>
+          </div>
+    </div>
+
+    <div class="row">
+        
+        <div class = "col-lg-3">
+              <div class="card" style = "outline-color: slategray; background-color: slategray; color: paleturquoise">
+                 <div class="card-body">
+                     <h4 class= text-center>Target Score</h4> 
+                     <h2 id= "targetScore" class= "text-center"><strong></strong></h2>
+                 </div>
+                </div>
+        </div>
+   
+
+    <div class = "col-lg-3">
+         <div class="card" style = "outline-color: slategray; background-color: slategray; color: paleturquoise">
+             <div class="card-body">
+                         <h4 class= "text-center">Score</h4> 
+                         <h2 id= "score" class= "text-center"><strong> 0</strong></h2>
+             </div>
+         </div>
+     </div>
+
+
+     <div class = "col-lg-3">
+            <div class="card" style = "outline-color: slategray; background-color: slategray; color: paleturquoise">
+                <div class="card-body">
+                            <h4 class= "text-center">Wins</h4> 
+                            <h2 id="wins" class= "text-center"><strong>0</strong></h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div class = "col-lg-3">
+                <div class="card" style = "outline-color: slategray; background-color: slategray; color: paleturquoise">
+                    <div class="card-body">
+                                <h4 class= "text-center">Losses</h4> 
+                                <h2 id="losses" class= "text-center"><strong> 0</strong></h2>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+<br>
+
+<div class= "row">
+    <div class = "col-lg-12">
+            <div class="card" style = "outline-color: slategray; background-color: slategray; color: paleturquoise">
+                <div class="card-body">
+                            <h4 class= "text-center">Crystal Choices</h4> 
+            <div>
+                <div style="float: left; padding: 0 100px 0 150px;"><img src="assets/images/red.jpeg" class="img-thumnail red" alt="Red Crystal" width="200" height="200" id = "red" /> </div>
+                <div style="float: left; padding: 0 100px 0 0;"><img src="assets/images/blue.jpeg" class="img-thumnail blue" alt="Blue Crystal" width="200" height="200" id = "blue" /> </div>
+                <div style="float: left; padding: 0 100px 0 0;"><img src="assets/images/orange.jpeg" class="img-thumnail orange" alt="Orange Crystal" width="200" height="200" id = "orange" /> </div>
+                <div style="float: left; padding: 0 100px 0 0;"><img src="assets/images/purple.jpeg" class="img-thumnail purple" alt="Purple Crystal" width="200" height="200" id = "purple" /> </div>
+            </div>
+
+            </div>
+            </div>
+        </div>
+</div>
+
+    </div>
+
+
+<script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
+</script>
+
+<script src="assets/javascript/game.js" ></script>
+
+</body>
+</html>
